@@ -6,3 +6,7 @@
 
 
 2)http://quartz-scheduler.org/
+
+3)UnsatisfiedLinkError
+
+Thrown if the Java Virtual Machine cannot find an appropriate native-language definition of a method declared native.
