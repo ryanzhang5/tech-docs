@@ -10,3 +10,7 @@
 3)UnsatisfiedLinkError
 
 Thrown if the Java Virtual Machine cannot find an appropriate native-language definition of a method declared native.
+
+4)IncompatibleClassChangeError
+The IncompatibleClassChangeError extends the LinkageError, which is related to problems rising from a base class that changes after the compilation of a child class.
+http://examples.javacodegeeks.com/java-basics/exceptions/java-lang-incompatibleclasschangeerror-how-to-resolve-incompatible-class-change-error/
