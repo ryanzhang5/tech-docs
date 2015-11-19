@@ -47,3 +47,6 @@ Solution:
 You don't need the assignment at all, just use
 
 i++;
+
+6)jdk8 about PermGen
+https://dzone.com/articles/java-8-permgen-metaspace
