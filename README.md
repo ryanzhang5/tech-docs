@@ -50,3 +50,43 @@ i++;
 
 6)jdk8 about PermGen
 https://dzone.com/articles/java-8-permgen-metaspace
+
+7)difference between  shell export variable and non-exported variable
+
+ryan1.sh
+------------------------------------------
+firstname=yanhui
+export lastname=zhang
+echo $firstname
+echo $lastname
+./ryan2.sh   #ryan1.sh has sub-process,will call ryan2.sh
+---------------
+ryan2.sh
+-------------------------------------------
+export lastname=zhang
+echo $firstname
+echo $lastname
+
+if we execute ./ryan1.sh,then the output will be
+
+yanhui
+zhang
+
+zhang
+--------------------------------------------------------------------
+conclusion: non-exported variable is not available in sub-process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
