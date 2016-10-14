@@ -1,0 +1,2103 @@
+/appbill/program/bin/java/classes12.jar:/appbill/program/bin/java/aviator-1.0.0-RC.jar:/appbill/program/bin/java/commons-beanutils.jar:/appbill/program/bin/java/commons-codec-1.3.jar:/appbill/program/bin/java/commons-collections-3.2.jar:/appbill/program/bin/java/commons-lang-2.3.jar:/appbill/program/bin/java/commons-logging.jar:/appbill/program/bin/java/dom4j-1.5.2.jar:/appbill/program/bin/java/javax.servlet.jar:/appbill/program/bin/java/jaxen-1.1-beta-8.jar:/appbill/program/bin/java/log4j-1.2.12.jar:/appbill/program/bin/java/proxool-0.9.1.jar:/appbill/program/bin/java/proxool-cglib.jar:/appbill/program/bin/java/xmlv2.jar:
+JAVAHOME=/usr/java5
+----------------
+/appbill/program
+/usr/java5
+
+------------------
+java version "1.5.0"
+Java(TM) 2 Runtime Environment, Standard Edition (build pap32devifx-20090327 (SR9-SSU ))
+IBM J9 VM (build 2.3, J2RE 1.5.0 IBM J9 2.3 AIX ppc-32 j9vmap3223-20081129 (JIT enabled)
+J9VM - 20081126_26240_bHdSMr
+JIT  - 20081112_1511ifx1_r8
+GC   - 200811_07)
+JCL  - 20090327
+##### XML compound program start
+##### load config cache data
+
+[2016-10-10 19:07:32]  INFO: com.bill.normal.ComposeXml
+ > 清理xml文件！path=/appbill/bill/001/PRODUCT/XML/2016/08/03
+
+[2016-10-10 19:07:32] DEBUG: com.bill.normal.ComposeXml
+ > delete all xml,path:/appbill/bill/001/PRODUCT/XML/2016/08/03
+
+[2016-10-10 19:07:33]  INFO: com.bill.normal.ComposeXml
+ > 程序开始执行, 任务线程:22, 时间:2016-10-10 19:07:33
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 白金一账通卡(00024956)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 动态账单(00032832)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 一般卡(00000001)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > BB卡(00000002)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 一账通(00000003)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 白金卡(00000004)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 钻石卡(00009404)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 公务卡金卡(00008695)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 大润发卡(00018518)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 金通卡(00023717)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskAllot
+ > 欧尚卡(00001603)  任务线程开始执行. 启动线程数:2 批次数据:500
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 白金一账通卡(00024956)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 钻石卡(00009404)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > BB卡(00000002)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 公务卡金卡(00008695)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 欧尚卡(00001603)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 一般卡(00000001)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 一账通(00000003)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 大润发卡(00018518)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 动态账单(00032832)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 金通卡(00023717)  查询线程开始执行
+
+[2016-10-10 19:07:33] DEBUG: com.bill.normal.TaskData
+ > 白金卡(00000004)  查询线程开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > BB卡(00000002)  合成线程(pool-3-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 公务卡金卡(00008695)  合成线程(pool-9-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 公务卡金卡(00008695)  合成线程(pool-9-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > BB卡(00000002)  合成线程(pool-3-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 大润发卡(00018518)  合成线程(pool-10-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 大润发卡(00018518)  合成线程(pool-10-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 一账通(00000003)  合成线程(pool-4-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 一账通(00000003)  合成线程(pool-4-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 动态账单(00032832)  合成线程(pool-5-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 动态账单(00032832)  合成线程(pool-5-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 钻石卡(00009404)  合成线程(pool-8-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 钻石卡(00009404)  合成线程(pool-8-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 一般卡(00000001)  合成线程(pool-7-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 一般卡(00000001)  合成线程(pool-7-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 白金一账通卡(00024956)  合成线程(pool-2-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 白金一账通卡(00024956)  合成线程(pool-2-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 白金卡(00000004)  合成线程(pool-6-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 白金卡(00000004)  合成线程(pool-6-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 金通卡(00023717)  合成线程(pool-11-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 金通卡(00023717)  合成线程(pool-11-thread-3)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 欧尚卡(00001603)  合成线程(pool-12-thread-2)开始执行
+
+[2016-10-10 19:07:35] DEBUG: com.bill.normal.TaskComplex
+ > 欧尚卡(00001603)  合成线程(pool-12-thread-3)开始执行
+
+[2016-10-10 19:07:42] DEBUG: com.bill.normal.TaskData
+ > 动态账单(00032832)  查询线程查询完成, 共0条
+
+[2016-10-10 19:07:42] DEBUG: com.bill.normal.TaskComplex
+ > 动态账单(00032832)  合成线程(pool-5-thread-2)结束执行
+
+[2016-10-10 19:07:42] DEBUG: com.bill.normal.TaskComplex
+ > 动态账单(00032832)  合成线程(pool-5-thread-3)结束执行
+
+[2016-10-10 19:07:42] DEBUG: com.bill.normal.TaskData
+ > 动态账单(00032832)  查询线程结束执行.
+
+[2016-10-10 19:07:42] DEBUG: com.bill.make.XMLWrite
+ > 动态账单(00032832)  所有IO关闭
+
+[2016-10-10 19:07:42] DEBUG: com.bill.normal.TaskAllot
+ > 动态账单(00032832)  任务线程结束执行
+
+[2016-10-10 19:07:44] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00023717_001.xml
+
+[2016-10-10 19:07:44]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00023717_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00018518_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00018518_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00023717_JTK201606SZYZ01_0165_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00023717_JTK201606SZYZ01_0165_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00008695_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00008695_001.xml
+
+[2016-10-10 19:07:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00009404_001.xml
+
+[2016-10-10 19:07:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00009404_001.xml
+
+[2016-10-10 19:07:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_001.xml
+
+[2016-10-10 19:07:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_001.xml
+
+[2016-10-10 19:07:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00024956_001.xml
+
+[2016-10-10 19:07:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00024956_001.xml
+
+[2016-10-10 19:07:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_001.xml
+
+[2016-10-10 19:07:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_001.xml
+
+[2016-10-10 19:07:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3389/20160803_00009404_ZSK201608JSYY03_3389_001.xml
+
+[2016-10-10 19:07:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3389/20160803_00009404_ZSK201608JSYY03_3389_001.xml
+
+[2016-10-10 19:07:47] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY03_3151_001.xml
+
+[2016-10-10 19:07:47]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY03_3151_001.xml
+
+[2016-10-10 19:07:47] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00001603_OSK201608JSYY03_0164_001.xml
+
+[2016-10-10 19:07:47]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00001603_OSK201608JSYY03_0164_001.xml
+
+[2016-10-10 19:07:48] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000003_YZT201608SZYZ02_0165_001.xml
+
+[2016-10-10 19:07:48]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000003_YZT201608SZYZ02_0165_001.xml
+
+[2016-10-10 19:07:49] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00024956_BJYZT201608JSYY03_3151_001.xml
+
+[2016-10-10 19:07:49]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00024956_BJYZT201608JSYY03_3151_001.xml
+
+[2016-10-10 19:07:50] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00023717_JTK201606SZYZ02_0165_001.xml
+
+[2016-10-10 19:07:50]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00023717_JTK201606SZYZ02_0165_001.xml
+
+[2016-10-10 19:07:51] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_001.xml
+
+[2016-10-10 19:07:51]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_001.xml
+
+[2016-10-10 19:07:54] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00008695_GWK201608SZYZ01_0165_001.xml
+
+[2016-10-10 19:07:54]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00008695_GWK201608SZYZ01_0165_001.xml
+
+[2016-10-10 19:07:56] DEBUG: com.bill.normal.TaskData
+ > 公务卡金卡(00008695)  查询线程查询完成, 共21条
+
+[2016-10-10 19:07:56] DEBUG: com.bill.normal.TaskComplex
+ > 公务卡金卡(00008695)  合成线程(pool-9-thread-3)结束执行
+
+[2016-10-10 19:07:56] DEBUG: com.bill.normal.TaskData
+ > 公务卡金卡(00008695)  查询线程结束执行.
+
+[2016-10-10 19:07:57] DEBUG: com.bill.normal.TaskData
+ > 钻石卡(00009404)  查询线程查询完成, 共73条
+
+[2016-10-10 19:07:57] DEBUG: com.bill.normal.TaskComplex
+ > 钻石卡(00009404)  合成线程(pool-8-thread-3)结束执行
+
+[2016-10-10 19:07:57] DEBUG: com.bill.normal.TaskData
+ > 钻石卡(00009404)  查询线程结束执行.
+
+[2016-10-10 19:07:57] DEBUG: com.bill.normal.TaskComplex
+ > 公务卡金卡(00008695)  合成线程(pool-9-thread-2)结束执行
+
+[2016-10-10 19:07:57] DEBUG: com.bill.make.XMLWrite
+ > 公务卡金卡(00008695)  所有IO关闭
+
+[2016-10-10 19:07:57] DEBUG: com.bill.normal.TaskAllot
+ > 公务卡金卡(00008695)  任务线程结束执行
+
+[2016-10-10 19:07:58] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000002_BBK201608SZYZ01_0165_001.xml
+
+[2016-10-10 19:07:58]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000002_BBK201608SZYZ01_0165_001.xml
+
+[2016-10-10 19:08:08] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3389/20160803_00009404_ZSK201608JSYY01_3389_001.xml
+
+[2016-10-10 19:08:08]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3389/20160803_00009404_ZSK201608JSYY01_3389_001.xml
+
+[2016-10-10 19:08:10] DEBUG: com.bill.normal.TaskComplex
+ > 钻石卡(00009404)  合成线程(pool-8-thread-2)结束执行
+
+[2016-10-10 19:08:10] DEBUG: com.bill.make.XMLWrite
+ > 钻石卡(00009404)  所有IO关闭
+
+[2016-10-10 19:08:10] DEBUG: com.bill.normal.TaskAllot
+ > 钻石卡(00009404)  任务线程结束执行
+
+[2016-10-10 19:08:12] DEBUG: com.bill.normal.TaskData
+ > 金通卡(00023717)  查询线程查询完成, 共1552条
+
+[2016-10-10 19:08:14] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00018518_DRF201608JSYY03_0164_001.xml
+
+[2016-10-10 19:08:14]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00018518_DRF201608JSYY03_0164_001.xml
+
+[2016-10-10 19:08:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00024956_BJYZT201608JSYY02_3151_001.xml
+
+[2016-10-10 19:08:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00024956_BJYZT201608JSYY02_3151_001.xml
+
+[2016-10-10 19:08:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00001603_OSK201608JSYY01_0164_001.xml
+
+[2016-10-10 19:08:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00001603_OSK201608JSYY01_0164_001.xml
+
+[2016-10-10 19:08:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000003_YZT201608SZYZ01_0165_001.xml
+
+[2016-10-10 19:08:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000003_YZT201608SZYZ01_0165_001.xml
+
+[2016-10-10 19:08:19] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00024956_BJYZT201608JSYY01_3151_001.xml
+
+[2016-10-10 19:08:19]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00024956_BJYZT201608JSYY01_3151_001.xml
+
+[2016-10-10 19:08:32] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY02_3151_001.xml
+
+[2016-10-10 19:08:32]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY02_3151_001.xml
+
+[2016-10-10 19:08:49] DEBUG: com.bill.normal.TaskData
+ > 金通卡(00023717)  查询线程结束执行.
+
+[2016-10-10 19:08:57] DEBUG: com.bill.normal.TaskComplex
+ > 金通卡(00023717)  合成线程(pool-11-thread-3)结束执行
+
+[2016-10-10 19:08:58] DEBUG: com.bill.normal.TaskData
+ > 大润发卡(00018518)  查询线程查询完成, 共2602条
+
+[2016-10-10 19:08:59] DEBUG: com.bill.normal.TaskData
+ > 白金一账通卡(00024956)  查询线程查询完成, 共2448条
+
+[2016-10-10 19:09:22] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000002_BBK201608JSYY03_0164_001.xml
+
+[2016-10-10 19:09:22]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000002_BBK201608JSYY03_0164_001.xml
+
+[2016-10-10 19:09:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY01_3151_001.xml
+
+[2016-10-10 19:09:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY01_3151_001.xml
+
+[2016-10-10 19:09:25] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000002_BBK201608SZYZ02_0165_001.xml
+
+[2016-10-10 19:09:25]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000002_BBK201608SZYZ02_0165_001.xml
+
+[2016-10-10 19:09:29] DEBUG: com.bill.normal.TaskComplex
+ > 金通卡(00023717)  合成线程(pool-11-thread-2)结束执行
+
+[2016-10-10 19:09:29] DEBUG: com.bill.make.XMLWrite
+ > 金通卡(00023717)  所有IO关闭
+
+[2016-10-10 19:09:29] DEBUG: com.bill.normal.TaskAllot
+ > 金通卡(00023717)  任务线程结束执行
+
+[2016-10-10 19:09:32] DEBUG: com.bill.normal.TaskData
+ > 大润发卡(00018518)  查询线程结束执行.
+
+[2016-10-10 19:09:40] DEBUG: com.bill.normal.TaskComplex
+ > 大润发卡(00018518)  合成线程(pool-10-thread-2)结束执行
+
+[2016-10-10 19:09:40] DEBUG: com.bill.normal.TaskData
+ > 白金一账通卡(00024956)  查询线程结束执行.
+
+[2016-10-10 19:09:41] DEBUG: com.bill.normal.TaskComplex
+ > 白金一账通卡(00024956)  合成线程(pool-2-thread-2)结束执行
+
+[2016-10-10 19:09:52] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00018518_DRF201608JSYY01_0164_001.xml
+
+[2016-10-10 19:09:52]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00018518_DRF201608JSYY01_0164_001.xml
+
+[2016-10-10 19:10:02] DEBUG: com.bill.normal.TaskComplex
+ > 大润发卡(00018518)  合成线程(pool-10-thread-3)结束执行
+
+[2016-10-10 19:10:02] DEBUG: com.bill.make.XMLWrite
+ > 大润发卡(00018518)  所有IO关闭
+
+[2016-10-10 19:10:02] DEBUG: com.bill.normal.TaskAllot
+ > 大润发卡(00018518)  任务线程结束执行
+
+[2016-10-10 19:10:08] DEBUG: com.bill.normal.TaskComplex
+ > 白金一账通卡(00024956)  合成线程(pool-2-thread-3)结束执行
+
+[2016-10-10 19:10:08] DEBUG: com.bill.make.XMLWrite
+ > 白金一账通卡(00024956)  所有IO关闭
+
+[2016-10-10 19:10:08] DEBUG: com.bill.normal.TaskAllot
+ > 白金一账通卡(00024956)  任务线程结束执行
+
+[2016-10-10 19:10:13] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000002_BBK201608JSYY02_0164_001.xml
+
+[2016-10-10 19:10:13]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000002_BBK201608JSYY02_0164_001.xml
+
+[2016-10-10 19:10:22] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000002_BBK201608JSYY01_0164_001.xml
+
+[2016-10-10 19:10:22]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000002_BBK201608JSYY01_0164_001.xml
+
+[2016-10-10 19:12:20] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00001603_OSK201608JSYY02_0164_001.xml
+
+[2016-10-10 19:12:20]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00001603_OSK201608JSYY02_0164_001.xml
+
+[2016-10-10 19:12:54] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_002.xml
+
+[2016-10-10 19:12:54]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_002.xml
+
+[2016-10-10 19:13:00] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_002.xml
+
+[2016-10-10 19:13:00]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_002.xml
+
+[2016-10-10 19:13:04] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_002.xml
+
+[2016-10-10 19:13:04]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_002.xml
+
+[2016-10-10 19:13:06] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_002.xml
+
+[2016-10-10 19:13:06]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_002.xml
+
+[2016-10-10 19:13:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_002.xml
+
+[2016-10-10 19:13:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_002.xml
+
+[2016-10-10 19:17:02] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_003.xml
+
+[2016-10-10 19:17:02]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_003.xml
+
+[2016-10-10 19:17:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_003.xml
+
+[2016-10-10 19:17:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_003.xml
+
+[2016-10-10 19:17:21] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_003.xml
+
+[2016-10-10 19:17:21]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_003.xml
+
+[2016-10-10 19:17:26] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_003.xml
+
+[2016-10-10 19:17:26]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_003.xml
+
+[2016-10-10 19:17:44] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_003.xml
+
+[2016-10-10 19:17:44]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_003.xml
+
+[2016-10-10 19:21:02] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_004.xml
+
+[2016-10-10 19:21:02]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_004.xml
+
+[2016-10-10 19:21:30] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_004.xml
+
+[2016-10-10 19:21:30]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_004.xml
+
+[2016-10-10 19:21:36] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_004.xml
+
+[2016-10-10 19:21:36]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000003_004.xml
+
+[2016-10-10 19:21:43] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_004.xml
+
+[2016-10-10 19:21:43]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_004.xml
+
+[2016-10-10 19:22:13] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_004.xml
+
+[2016-10-10 19:22:13]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_004.xml
+
+[2016-10-10 19:22:38] DEBUG: com.bill.normal.TaskData
+ > 一账通(00000003)  查询线程查询完成, 共33814条
+
+[2016-10-10 19:22:41] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY02_0164_001.xml
+
+[2016-10-10 19:22:41]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY02_0164_001.xml
+
+[2016-10-10 19:22:41] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_001.xml
+
+[2016-10-10 19:22:41]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_001.xml
+
+[2016-10-10 19:22:57] DEBUG: com.bill.normal.TaskData
+ > 一账通(00000003)  查询线程结束执行.
+
+[2016-10-10 19:23:13] DEBUG: com.bill.normal.TaskComplex
+ > 一账通(00000003)  合成线程(pool-4-thread-3)结束执行
+
+[2016-10-10 19:23:19] DEBUG: com.bill.normal.TaskComplex
+ > 一账通(00000003)  合成线程(pool-4-thread-2)结束执行
+
+[2016-10-10 19:23:19] DEBUG: com.bill.make.XMLWrite
+ > 一账通(00000003)  所有IO关闭
+
+[2016-10-10 19:23:20] DEBUG: com.bill.normal.TaskAllot
+ > 一账通(00000003)  任务线程结束执行
+
+[2016-10-10 19:24:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY03_3151_002.xml
+
+[2016-10-10 19:24:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/3151/20160803_00000004_BJK201608JSYY03_3151_002.xml
+
+[2016-10-10 19:24:51] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_005.xml
+
+[2016-10-10 19:24:51]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_005.xml
+
+[2016-10-10 19:25:23] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_005.xml
+
+[2016-10-10 19:25:23]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_005.xml
+
+[2016-10-10 19:25:33] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_005.xml
+
+[2016-10-10 19:25:33]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_005.xml
+
+[2016-10-10 19:26:03] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_005.xml
+
+[2016-10-10 19:26:03]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_005.xml
+
+[2016-10-10 19:26:20] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY03_0164_001.xml
+
+[2016-10-10 19:26:20]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY03_0164_001.xml
+
+[2016-10-10 19:26:43] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608SZYZ02_0165_001.xml
+
+[2016-10-10 19:26:43]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608SZYZ02_0165_001.xml
+
+[2016-10-10 19:26:54] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_002.xml
+
+[2016-10-10 19:26:54]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_002.xml
+
+[2016-10-10 19:28:13] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_006.xml
+
+[2016-10-10 19:28:13]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_006.xml
+
+[2016-10-10 19:28:52] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_006.xml
+
+[2016-10-10 19:28:52]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000002_006.xml
+
+[2016-10-10 19:29:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY01_0164_001.xml
+
+[2016-10-10 19:29:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY01_0164_001.xml
+
+[2016-10-10 19:29:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_006.xml
+
+[2016-10-10 19:29:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_006.xml
+
+[2016-10-10 19:29:47] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_006.xml
+
+[2016-10-10 19:29:47]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_006.xml
+
+[2016-10-10 19:30:28] DEBUG: com.bill.normal.TaskData
+ > BB卡(00000002)  查询线程查询完成, 共55897条
+
+[2016-10-10 19:30:41] DEBUG: com.bill.normal.TaskData
+ > BB卡(00000002)  查询线程结束执行.
+
+[2016-10-10 19:30:57] DEBUG: com.bill.normal.TaskComplex
+ > BB卡(00000002)  合成线程(pool-3-thread-3)结束执行
+
+[2016-10-10 19:30:59] DEBUG: com.bill.normal.TaskComplex
+ > BB卡(00000002)  合成线程(pool-3-thread-2)结束执行
+
+[2016-10-10 19:30:59] DEBUG: com.bill.make.XMLWrite
+ > BB卡(00000002)  所有IO关闭
+
+[2016-10-10 19:31:00] DEBUG: com.bill.normal.TaskAllot
+ > BB卡(00000002)  任务线程结束执行
+
+[2016-10-10 19:31:28] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_007.xml
+
+[2016-10-10 19:31:28]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_007.xml
+
+[2016-10-10 19:32:11] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_007.xml
+
+[2016-10-10 19:32:11]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_007.xml
+
+[2016-10-10 19:32:52] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_007.xml
+
+[2016-10-10 19:32:52]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000004_007.xml
+
+[2016-10-10 19:32:54] DEBUG: com.bill.normal.TaskData
+ > 白金卡(00000004)  查询线程查询完成, 共61281条
+
+[2016-10-10 19:33:08] DEBUG: com.bill.normal.TaskData
+ > 白金卡(00000004)  查询线程结束执行.
+
+[2016-10-10 19:33:10] DEBUG: com.bill.normal.TaskComplex
+ > 白金卡(00000004)  合成线程(pool-6-thread-3)结束执行
+
+[2016-10-10 19:33:16] DEBUG: com.bill.normal.TaskComplex
+ > 白金卡(00000004)  合成线程(pool-6-thread-2)结束执行
+
+[2016-10-10 19:33:16] DEBUG: com.bill.make.XMLWrite
+ > 白金卡(00000004)  所有IO关闭
+
+[2016-10-10 19:33:16] DEBUG: com.bill.normal.TaskAllot
+ > 白金卡(00000004)  任务线程结束执行
+
+[2016-10-10 19:33:48] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_008.xml
+
+[2016-10-10 19:33:48]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00001603_008.xml
+
+[2016-10-10 19:34:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_008.xml
+
+[2016-10-10 19:34:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_008.xml
+
+[2016-10-10 19:34:30] DEBUG: com.bill.normal.TaskData
+ > 欧尚卡(00001603)  查询线程查询完成, 共75031条
+
+[2016-10-10 19:34:52] DEBUG: com.bill.normal.TaskData
+ > 欧尚卡(00001603)  查询线程结束执行.
+
+[2016-10-10 19:34:52] DEBUG: com.bill.normal.TaskComplex
+ > 欧尚卡(00001603)  合成线程(pool-12-thread-2)结束执行
+
+[2016-10-10 19:34:54] DEBUG: com.bill.normal.TaskComplex
+ > 欧尚卡(00001603)  合成线程(pool-12-thread-3)结束执行
+
+[2016-10-10 19:34:54] DEBUG: com.bill.make.XMLWrite
+ > 欧尚卡(00001603)  所有IO关闭
+
+[2016-10-10 19:34:54] DEBUG: com.bill.normal.TaskAllot
+ > 欧尚卡(00001603)  任务线程结束执行
+
+[2016-10-10 19:35:34] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_009.xml
+
+[2016-10-10 19:35:34]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_009.xml
+
+[2016-10-10 19:36:23] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_010.xml
+
+[2016-10-10 19:36:23]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_010.xml
+
+[2016-10-10 19:37:10] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_003.xml
+
+[2016-10-10 19:37:10]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_003.xml
+
+[2016-10-10 19:37:12] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_011.xml
+
+[2016-10-10 19:37:12]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_011.xml
+
+[2016-10-10 19:38:01] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_012.xml
+
+[2016-10-10 19:38:01]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_012.xml
+
+[2016-10-10 19:38:56] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_013.xml
+
+[2016-10-10 19:38:56]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_013.xml
+
+[2016-10-10 19:39:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_014.xml
+
+[2016-10-10 19:39:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_014.xml
+
+[2016-10-10 19:40:36] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_015.xml
+
+[2016-10-10 19:40:36]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_015.xml
+
+[2016-10-10 19:41:26] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_016.xml
+
+[2016-10-10 19:41:26]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_016.xml
+
+[2016-10-10 19:42:41] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_017.xml
+
+[2016-10-10 19:42:41]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_017.xml
+
+[2016-10-10 19:43:32] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_018.xml
+
+[2016-10-10 19:43:32]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_018.xml
+
+[2016-10-10 19:44:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_019.xml
+
+[2016-10-10 19:44:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_019.xml
+
+[2016-10-10 19:45:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_020.xml
+
+[2016-10-10 19:45:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_020.xml
+
+[2016-10-10 19:46:10] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_021.xml
+
+[2016-10-10 19:46:10]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_021.xml
+
+[2016-10-10 19:47:04] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_022.xml
+
+[2016-10-10 19:47:04]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_022.xml
+
+[2016-10-10 19:47:57] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_023.xml
+
+[2016-10-10 19:47:57]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_023.xml
+
+[2016-10-10 19:48:50] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_024.xml
+
+[2016-10-10 19:48:50]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_024.xml
+
+[2016-10-10 19:49:44] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_025.xml
+
+[2016-10-10 19:49:44]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_025.xml
+
+[2016-10-10 19:50:38] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_026.xml
+
+[2016-10-10 19:50:38]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_026.xml
+
+[2016-10-10 19:51:25] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_002.xml
+
+[2016-10-10 19:51:25]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_002.xml
+
+[2016-10-10 19:51:33] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_027.xml
+
+[2016-10-10 19:51:33]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_027.xml
+
+[2016-10-10 19:52:15] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY02_0164_002.xml
+
+[2016-10-10 19:52:15]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY02_0164_002.xml
+
+[2016-10-10 19:52:29] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_028.xml
+
+[2016-10-10 19:52:29]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_028.xml
+
+[2016-10-10 19:53:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_029.xml
+
+[2016-10-10 19:53:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_029.xml
+
+[2016-10-10 19:54:19] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_030.xml
+
+[2016-10-10 19:54:19]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_030.xml
+
+[2016-10-10 19:55:15] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_031.xml
+
+[2016-10-10 19:55:15]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_031.xml
+
+[2016-10-10 19:56:11] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_032.xml
+
+[2016-10-10 19:56:11]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_032.xml
+
+[2016-10-10 19:56:23] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_003.xml
+
+[2016-10-10 19:56:23]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_003.xml
+
+[2016-10-10 19:57:10] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_033.xml
+
+[2016-10-10 19:57:10]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_033.xml
+
+[2016-10-10 19:58:07] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_034.xml
+
+[2016-10-10 19:58:07]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_034.xml
+
+[2016-10-10 19:59:06] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_035.xml
+
+[2016-10-10 19:59:06]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_035.xml
+
+[2016-10-10 20:00:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_036.xml
+
+[2016-10-10 20:00:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_036.xml
+
+[2016-10-10 20:01:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_037.xml
+
+[2016-10-10 20:01:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_037.xml
+
+[2016-10-10 20:01:41] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_004.xml
+
+[2016-10-10 20:01:41]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_004.xml
+
+[2016-10-10 20:02:03] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_038.xml
+
+[2016-10-10 20:02:03]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_038.xml
+
+[2016-10-10 20:03:02] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_039.xml
+
+[2016-10-10 20:03:02]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_039.xml
+
+[2016-10-10 20:04:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_040.xml
+
+[2016-10-10 20:04:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_040.xml
+
+[2016-10-10 20:05:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_041.xml
+
+[2016-10-10 20:05:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_041.xml
+
+[2016-10-10 20:06:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_042.xml
+
+[2016-10-10 20:06:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_042.xml
+
+[2016-10-10 20:06:43] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY03_0164_002.xml
+
+[2016-10-10 20:06:43]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY03_0164_002.xml
+
+[2016-10-10 20:07:06] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_043.xml
+
+[2016-10-10 20:07:06]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_043.xml
+
+[2016-10-10 20:07:37] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_005.xml
+
+[2016-10-10 20:07:37]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_005.xml
+
+[2016-10-10 20:08:07] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_044.xml
+
+[2016-10-10 20:08:07]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_044.xml
+
+[2016-10-10 20:09:12] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_045.xml
+
+[2016-10-10 20:09:12]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_045.xml
+
+[2016-10-10 20:10:13] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_046.xml
+
+[2016-10-10 20:10:13]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_046.xml
+
+[2016-10-10 20:11:15] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_047.xml
+
+[2016-10-10 20:11:15]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_047.xml
+
+[2016-10-10 20:12:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_048.xml
+
+[2016-10-10 20:12:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_048.xml
+
+[2016-10-10 20:12:50] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_006.xml
+
+[2016-10-10 20:12:50]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_006.xml
+
+[2016-10-10 20:13:20] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_049.xml
+
+[2016-10-10 20:13:20]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_049.xml
+
+[2016-10-10 20:14:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_050.xml
+
+[2016-10-10 20:14:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_050.xml
+
+[2016-10-10 20:15:28] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_051.xml
+
+[2016-10-10 20:15:28]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_051.xml
+
+[2016-10-10 20:16:32] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_052.xml
+
+[2016-10-10 20:16:32]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_052.xml
+
+[2016-10-10 20:17:23] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_007.xml
+
+[2016-10-10 20:17:23]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_007.xml
+
+[2016-10-10 20:17:36] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_053.xml
+
+[2016-10-10 20:17:36]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_053.xml
+
+[2016-10-10 20:18:40] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_054.xml
+
+[2016-10-10 20:18:40]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_054.xml
+
+[2016-10-10 20:19:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_055.xml
+
+[2016-10-10 20:19:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_055.xml
+
+[2016-10-10 20:20:50] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_056.xml
+
+[2016-10-10 20:20:50]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_056.xml
+
+[2016-10-10 20:21:40] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_008.xml
+
+[2016-10-10 20:21:40]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_008.xml
+
+[2016-10-10 20:21:56] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_057.xml
+
+[2016-10-10 20:21:56]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_057.xml
+
+[2016-10-10 20:23:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_058.xml
+
+[2016-10-10 20:23:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_058.xml
+
+[2016-10-10 20:24:12] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_059.xml
+
+[2016-10-10 20:24:12]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_059.xml
+
+[2016-10-10 20:25:19] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_060.xml
+
+[2016-10-10 20:25:19]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_060.xml
+
+[2016-10-10 20:26:11] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_009.xml
+
+[2016-10-10 20:26:11]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_009.xml
+
+[2016-10-10 20:26:27] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_061.xml
+
+[2016-10-10 20:26:27]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_061.xml
+
+[2016-10-10 20:27:35] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_062.xml
+
+[2016-10-10 20:27:35]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_062.xml
+
+[2016-10-10 20:28:43] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_063.xml
+
+[2016-10-10 20:28:43]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_063.xml
+
+[2016-10-10 20:29:51] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_064.xml
+
+[2016-10-10 20:29:51]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_064.xml
+
+[2016-10-10 20:31:00] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_065.xml
+
+[2016-10-10 20:31:00]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_065.xml
+
+[2016-10-10 20:31:07] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_010.xml
+
+[2016-10-10 20:31:07]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_010.xml
+
+[2016-10-10 20:32:10] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_066.xml
+
+[2016-10-10 20:32:10]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_066.xml
+
+[2016-10-10 20:33:22] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_067.xml
+
+[2016-10-10 20:33:22]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_067.xml
+
+[2016-10-10 20:34:34] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_068.xml
+
+[2016-10-10 20:34:34]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_068.xml
+
+[2016-10-10 20:35:45] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_069.xml
+
+[2016-10-10 20:35:45]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_069.xml
+
+[2016-10-10 20:35:54] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_011.xml
+
+[2016-10-10 20:35:54]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_011.xml
+
+[2016-10-10 20:36:56] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_070.xml
+
+[2016-10-10 20:36:56]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_070.xml
+
+[2016-10-10 20:38:13] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_071.xml
+
+[2016-10-10 20:38:13]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_071.xml
+
+[2016-10-10 20:39:25] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_072.xml
+
+[2016-10-10 20:39:25]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_072.xml
+
+[2016-10-10 20:40:38] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_073.xml
+
+[2016-10-10 20:40:38]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_073.xml
+
+[2016-10-10 20:40:42] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_012.xml
+
+[2016-10-10 20:40:42]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_012.xml
+
+[2016-10-10 20:41:51] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_074.xml
+
+[2016-10-10 20:41:51]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_074.xml
+
+[2016-10-10 20:43:04] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_075.xml
+
+[2016-10-10 20:43:04]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_075.xml
+
+[2016-10-10 20:44:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_076.xml
+
+[2016-10-10 20:44:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_076.xml
+
+[2016-10-10 20:45:32] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_077.xml
+
+[2016-10-10 20:45:32]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_077.xml
+
+[2016-10-10 20:46:39] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_013.xml
+
+[2016-10-10 20:46:39]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_013.xml
+
+[2016-10-10 20:46:47] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_078.xml
+
+[2016-10-10 20:46:47]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_078.xml
+
+[2016-10-10 20:47:52] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_004.xml
+
+[2016-10-10 20:47:52]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_004.xml
+
+[2016-10-10 20:48:02] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_079.xml
+
+[2016-10-10 20:48:02]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_079.xml
+
+[2016-10-10 20:49:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_080.xml
+
+[2016-10-10 20:49:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_080.xml
+
+[2016-10-10 20:50:33] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_081.xml
+
+[2016-10-10 20:50:33]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_081.xml
+
+[2016-10-10 20:51:50] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_082.xml
+
+[2016-10-10 20:51:50]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_082.xml
+
+[2016-10-10 20:53:06] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_083.xml
+
+[2016-10-10 20:53:06]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_083.xml
+
+[2016-10-10 20:54:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_084.xml
+
+[2016-10-10 20:54:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_084.xml
+
+[2016-10-10 20:54:53] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_014.xml
+
+[2016-10-10 20:54:53]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_014.xml
+
+[2016-10-10 20:55:41] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_085.xml
+
+[2016-10-10 20:55:41]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_085.xml
+
+[2016-10-10 20:56:59] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_086.xml
+
+[2016-10-10 20:56:59]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_086.xml
+
+[2016-10-10 20:58:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_087.xml
+
+[2016-10-10 20:58:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_087.xml
+
+[2016-10-10 20:59:35] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_088.xml
+
+[2016-10-10 20:59:35]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_088.xml
+
+[2016-10-10 21:00:55] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_089.xml
+
+[2016-10-10 21:00:55]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_089.xml
+
+[2016-10-10 21:02:15] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_090.xml
+
+[2016-10-10 21:02:15]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_090.xml
+
+[2016-10-10 21:02:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_015.xml
+
+[2016-10-10 21:02:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_015.xml
+
+[2016-10-10 21:03:36] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_091.xml
+
+[2016-10-10 21:03:36]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_091.xml
+
+[2016-10-10 21:04:56] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_092.xml
+
+[2016-10-10 21:04:56]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_092.xml
+
+[2016-10-10 21:06:16] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_093.xml
+
+[2016-10-10 21:06:16]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_093.xml
+
+[2016-10-10 21:07:37] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_094.xml
+
+[2016-10-10 21:07:37]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_094.xml
+
+[2016-10-10 21:08:57] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_095.xml
+
+[2016-10-10 21:08:57]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_095.xml
+
+[2016-10-10 21:09:33] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_005.xml
+
+[2016-10-10 21:09:33]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_005.xml
+
+[2016-10-10 21:10:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_096.xml
+
+[2016-10-10 21:10:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_096.xml
+
+[2016-10-10 21:11:40] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_097.xml
+
+[2016-10-10 21:11:40]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_097.xml
+
+[2016-10-10 21:12:58] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_016.xml
+
+[2016-10-10 21:12:58]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_016.xml
+
+[2016-10-10 21:13:03] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_098.xml
+
+[2016-10-10 21:13:03]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_098.xml
+
+[2016-10-10 21:14:26] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_099.xml
+
+[2016-10-10 21:14:26]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_099.xml
+
+[2016-10-10 21:15:49] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_100.xml
+
+[2016-10-10 21:15:49]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_100.xml
+
+[2016-10-10 21:17:12] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_101.xml
+
+[2016-10-10 21:17:12]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_101.xml
+
+[2016-10-10 21:18:00] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_006.xml
+
+[2016-10-10 21:18:00]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_006.xml
+
+[2016-10-10 21:18:35] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_102.xml
+
+[2016-10-10 21:18:35]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_102.xml
+
+[2016-10-10 21:19:59] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_103.xml
+
+[2016-10-10 21:19:59]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_103.xml
+
+[2016-10-10 21:21:23] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_104.xml
+
+[2016-10-10 21:21:23]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_104.xml
+
+[2016-10-10 21:22:47] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_105.xml
+
+[2016-10-10 21:22:47]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_105.xml
+
+[2016-10-10 21:23:49] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_007.xml
+
+[2016-10-10 21:23:49]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_007.xml
+
+[2016-10-10 21:24:11] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_106.xml
+
+[2016-10-10 21:24:11]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_106.xml
+
+[2016-10-10 21:25:37] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_107.xml
+
+[2016-10-10 21:25:37]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_107.xml
+
+[2016-10-10 21:27:02] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_108.xml
+
+[2016-10-10 21:27:02]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_108.xml
+
+[2016-10-10 21:28:30] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_109.xml
+
+[2016-10-10 21:28:30]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_109.xml
+
+[2016-10-10 21:29:16] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_008.xml
+
+[2016-10-10 21:29:16]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_008.xml
+
+[2016-10-10 21:29:56] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_110.xml
+
+[2016-10-10 21:29:56]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_110.xml
+
+[2016-10-10 21:31:23] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_111.xml
+
+[2016-10-10 21:31:23]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_111.xml
+
+[2016-10-10 21:32:51] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_112.xml
+
+[2016-10-10 21:32:51]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_112.xml
+
+[2016-10-10 21:34:19] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_113.xml
+
+[2016-10-10 21:34:19]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_113.xml
+
+[2016-10-10 21:35:42] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_009.xml
+
+[2016-10-10 21:35:42]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_009.xml
+
+[2016-10-10 21:35:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_114.xml
+
+[2016-10-10 21:35:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_114.xml
+
+[2016-10-10 21:37:15] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_115.xml
+
+[2016-10-10 21:37:15]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_115.xml
+
+[2016-10-10 21:38:42] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_116.xml
+
+[2016-10-10 21:38:42]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_116.xml
+
+[2016-10-10 21:40:10] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_117.xml
+
+[2016-10-10 21:40:10]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_117.xml
+
+[2016-10-10 21:41:39] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_118.xml
+
+[2016-10-10 21:41:39]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_118.xml
+
+[2016-10-10 21:43:11] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_119.xml
+
+[2016-10-10 21:43:11]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_119.xml
+
+[2016-10-10 21:44:40] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_120.xml
+
+[2016-10-10 21:44:40]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_120.xml
+
+[2016-10-10 21:46:11] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_121.xml
+
+[2016-10-10 21:46:11]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_121.xml
+
+[2016-10-10 21:47:42] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_122.xml
+
+[2016-10-10 21:47:42]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_122.xml
+
+[2016-10-10 21:49:14] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_123.xml
+
+[2016-10-10 21:49:14]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_123.xml
+
+[2016-10-10 21:50:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_124.xml
+
+[2016-10-10 21:50:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_124.xml
+
+[2016-10-10 21:52:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_125.xml
+
+[2016-10-10 21:52:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_125.xml
+
+[2016-10-10 21:53:31] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_017.xml
+
+[2016-10-10 21:53:31]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_017.xml
+
+[2016-10-10 21:53:51] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_126.xml
+
+[2016-10-10 21:53:51]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_126.xml
+
+[2016-10-10 21:55:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_127.xml
+
+[2016-10-10 21:55:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_127.xml
+
+[2016-10-10 21:55:57] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608SZYZ02_0165_002.xml
+
+[2016-10-10 21:55:57]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608SZYZ02_0165_002.xml
+
+[2016-10-10 21:56:59] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_128.xml
+
+[2016-10-10 21:56:59]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_128.xml
+
+[2016-10-10 21:58:33] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_129.xml
+
+[2016-10-10 21:58:33]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_129.xml
+
+[2016-10-10 22:00:09] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_130.xml
+
+[2016-10-10 22:00:09]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_130.xml
+
+[2016-10-10 22:01:46] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_131.xml
+
+[2016-10-10 22:01:46]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_131.xml
+
+[2016-10-10 22:03:22] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_132.xml
+
+[2016-10-10 22:03:22]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_132.xml
+
+[2016-10-10 22:05:00] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_133.xml
+
+[2016-10-10 22:05:00]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_133.xml
+
+[2016-10-10 22:06:34] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY01_0164_002.xml
+
+[2016-10-10 22:06:34]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY01_0164_002.xml
+
+[2016-10-10 22:06:37] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_134.xml
+
+[2016-10-10 22:06:37]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_134.xml
+
+[2016-10-10 22:08:15] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_135.xml
+
+[2016-10-10 22:08:15]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_135.xml
+
+[2016-10-10 22:09:53] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_136.xml
+
+[2016-10-10 22:09:53]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_136.xml
+
+[2016-10-10 22:11:36] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_137.xml
+
+[2016-10-10 22:11:36]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_137.xml
+
+[2016-10-10 22:13:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_138.xml
+
+[2016-10-10 22:13:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_138.xml
+
+[2016-10-10 22:15:00] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_139.xml
+
+[2016-10-10 22:15:00]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_139.xml
+
+[2016-10-10 22:16:42] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_140.xml
+
+[2016-10-10 22:16:42]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_140.xml
+
+[2016-10-10 22:18:24] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_141.xml
+
+[2016-10-10 22:18:24]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_141.xml
+
+[2016-10-10 22:19:18] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_018.xml
+
+[2016-10-10 22:19:18]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_018.xml
+
+[2016-10-10 22:20:07] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_142.xml
+
+[2016-10-10 22:20:07]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_142.xml
+
+[2016-10-10 22:21:21] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_010.xml
+
+[2016-10-10 22:21:21]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0165/20160803_00000001_YBK201608JSYY21_0165_010.xml
+
+[2016-10-10 22:21:50] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_143.xml
+
+[2016-10-10 22:21:50]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_143.xml
+
+[2016-10-10 22:23:33] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_144.xml
+
+[2016-10-10 22:23:33]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_144.xml
+
+[2016-10-10 22:25:17] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_145.xml
+
+[2016-10-10 22:25:17]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_145.xml
+
+[2016-10-10 22:27:02] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_146.xml
+
+[2016-10-10 22:27:02]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_146.xml
+
+[2016-10-10 22:28:48] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_147.xml
+
+[2016-10-10 22:28:48]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_147.xml
+
+[2016-10-10 22:30:34] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_148.xml
+
+[2016-10-10 22:30:34]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_148.xml
+
+[2016-10-10 22:32:19] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_149.xml
+
+[2016-10-10 22:32:19]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_149.xml
+
+[2016-10-10 22:33:39] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_019.xml
+
+[2016-10-10 22:33:39]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/TNO/0164/20160803_00000001_YBK201608JSYY20_0164_019.xml
+
+[2016-10-10 22:34:05] DEBUG: com.bill.make.XmlFileOutput
+ > create file path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_150.xml
+
+[2016-10-10 22:34:05]  INFO: com.bill.make.XmlFileOutput
+ > create file. path=/appbill/bill/001/PRODUCT/XML/2016/08/03/HTML/20160803_00000001_150.xml
+
+[2016-10-10 22:34:14] DEBUG: com.bill.normal.TaskData
+ > 一般卡(00000001)  查询线程查询完成, 共1490583条
+
+[2016-10-10 22:34:14] DEBUG: com.bill.normal.TaskComplex
+ > 一般卡(00000001)  合成线程(pool-7-thread-2)结束执行
+
+[2016-10-10 22:34:14] DEBUG: com.bill.normal.TaskData
+ > 一般卡(00000001)  查询线程结束执行.
+
+[2016-10-10 22:34:14] DEBUG: com.bill.normal.TaskComplex
+ > 一般卡(00000001)  合成线程(pool-7-thread-3)结束执行
+
+[2016-10-10 22:34:14] DEBUG: com.bill.make.XMLWrite
+ > 一般卡(00000001)  所有IO关闭
+
+[2016-10-10 22:34:15] DEBUG: com.bill.normal.TaskAllot
+ > 一般卡(00000001)  任务线程结束执行
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > ----------------------------------------------------------
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 白金一账通卡:  查询:2448条, 写入:2943条, 耗时:00:02:32.734
+   电子xml文件:
+   20160803_00024956_001.xml   2448
+   纸制xml文件:
+   20160803_00024956_BJYZT201608JSYY01_3151_001.xml   29
+   20160803_00024956_BJYZT201608JSYY03_3151_001.xml   459
+   20160803_00024956_BJYZT201608JSYY02_3151_001.xml   7
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 动态账单:  查询:0条, 写入:0条, 耗时:00:00:07.096
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 一般卡:  查询:1490583条, 写入:1822217条, 耗时:03:26:38.610
+   电子xml文件:
+   20160803_00000001_001.xml   10000
+   20160803_00000001_002.xml   10000
+   20160803_00000001_003.xml   10000
+   20160803_00000001_004.xml   10000
+   20160803_00000001_005.xml   10000
+   20160803_00000001_006.xml   10000
+   20160803_00000001_007.xml   10000
+   20160803_00000001_008.xml   10000
+   20160803_00000001_009.xml   10000
+   20160803_00000001_010.xml   10000
+   20160803_00000001_011.xml   10000
+   20160803_00000001_012.xml   10000
+   20160803_00000001_013.xml   10000
+   20160803_00000001_014.xml   10000
+   20160803_00000001_015.xml   10000
+   20160803_00000001_016.xml   10000
+   20160803_00000001_017.xml   10000
+   20160803_00000001_018.xml   10000
+   20160803_00000001_019.xml   10000
+   20160803_00000001_020.xml   10000
+   20160803_00000001_021.xml   10000
+   20160803_00000001_022.xml   10000
+   20160803_00000001_023.xml   10000
+   20160803_00000001_024.xml   10000
+   20160803_00000001_025.xml   10000
+   20160803_00000001_026.xml   10000
+   20160803_00000001_027.xml   10000
+   20160803_00000001_028.xml   10000
+   20160803_00000001_029.xml   10000
+   20160803_00000001_030.xml   10000
+   20160803_00000001_031.xml   10000
+   20160803_00000001_032.xml   10000
+   20160803_00000001_033.xml   10000
+   20160803_00000001_034.xml   10000
+   20160803_00000001_035.xml   10000
+   20160803_00000001_036.xml   10000
+   20160803_00000001_037.xml   10000
+   20160803_00000001_038.xml   10000
+   20160803_00000001_039.xml   10000
+   20160803_00000001_040.xml   10000
+   20160803_00000001_041.xml   10000
+   20160803_00000001_042.xml   10000
+   20160803_00000001_043.xml   10000
+   20160803_00000001_044.xml   10000
+   20160803_00000001_045.xml   10000
+   20160803_00000001_046.xml   10000
+   20160803_00000001_047.xml   10000
+   20160803_00000001_048.xml   10000
+   20160803_00000001_049.xml   10000
+   20160803_00000001_050.xml   10000
+   20160803_00000001_051.xml   10000
+   20160803_00000001_052.xml   10000
+   20160803_00000001_053.xml   10000
+   20160803_00000001_054.xml   10000
+   20160803_00000001_055.xml   10000
+   20160803_00000001_056.xml   10000
+   20160803_00000001_057.xml   10000
+   20160803_00000001_058.xml   10000
+   20160803_00000001_059.xml   10000
+   20160803_00000001_060.xml   10000
+   20160803_00000001_061.xml   10000
+   20160803_00000001_062.xml   10000
+   20160803_00000001_063.xml   10000
+   20160803_00000001_064.xml   10000
+   20160803_00000001_065.xml   10000
+   20160803_00000001_066.xml   10000
+   20160803_00000001_067.xml   10000
+   20160803_00000001_068.xml   10000
+   20160803_00000001_069.xml   10000
+   20160803_00000001_070.xml   10000
+   20160803_00000001_071.xml   10000
+   20160803_00000001_072.xml   10000
+   20160803_00000001_073.xml   10000
+   20160803_00000001_074.xml   10000
+   20160803_00000001_075.xml   10000
+   20160803_00000001_076.xml   10000
+   20160803_00000001_077.xml   10000
+   20160803_00000001_078.xml   10000
+   20160803_00000001_079.xml   10000
+   20160803_00000001_080.xml   10000
+   20160803_00000001_081.xml   10000
+   20160803_00000001_082.xml   10000
+   20160803_00000001_083.xml   10000
+   20160803_00000001_084.xml   10000
+   20160803_00000001_085.xml   10000
+   20160803_00000001_086.xml   10000
+   20160803_00000001_087.xml   10000
+   20160803_00000001_088.xml   10000
+   20160803_00000001_089.xml   10000
+   20160803_00000001_090.xml   10000
+   20160803_00000001_091.xml   10000
+   20160803_00000001_092.xml   10000
+   20160803_00000001_093.xml   10000
+   20160803_00000001_094.xml   10000
+   20160803_00000001_095.xml   10000
+   20160803_00000001_096.xml   10000
+   20160803_00000001_097.xml   10000
+   20160803_00000001_098.xml   10000
+   20160803_00000001_099.xml   10000
+   20160803_00000001_100.xml   10000
+   20160803_00000001_101.xml   10000
+   20160803_00000001_102.xml   10000
+   20160803_00000001_103.xml   10000
+   20160803_00000001_104.xml   10000
+   20160803_00000001_105.xml   10000
+   20160803_00000001_106.xml   10000
+   20160803_00000001_107.xml   10000
+   20160803_00000001_108.xml   10000
+   20160803_00000001_109.xml   10000
+   20160803_00000001_110.xml   10000
+   20160803_00000001_111.xml   10000
+   20160803_00000001_112.xml   10000
+   20160803_00000001_113.xml   10000
+   20160803_00000001_114.xml   10000
+   20160803_00000001_115.xml   10000
+   20160803_00000001_116.xml   10000
+   20160803_00000001_117.xml   10000
+   20160803_00000001_118.xml   10000
+   20160803_00000001_119.xml   10000
+   20160803_00000001_120.xml   10000
+   20160803_00000001_121.xml   10000
+   20160803_00000001_122.xml   10000
+   20160803_00000001_123.xml   10000
+   20160803_00000001_124.xml   10000
+   20160803_00000001_125.xml   10000
+   20160803_00000001_126.xml   10000
+   20160803_00000001_127.xml   10000
+   20160803_00000001_128.xml   10000
+   20160803_00000001_129.xml   10000
+   20160803_00000001_130.xml   10000
+   20160803_00000001_131.xml   10000
+   20160803_00000001_132.xml   10000
+   20160803_00000001_133.xml   10000
+   20160803_00000001_134.xml   10000
+   20160803_00000001_135.xml   10000
+   20160803_00000001_136.xml   10000
+   20160803_00000001_137.xml   10000
+   20160803_00000001_138.xml   10000
+   20160803_00000001_139.xml   10000
+   20160803_00000001_140.xml   10000
+   20160803_00000001_141.xml   10000
+   20160803_00000001_142.xml   10000
+   20160803_00000001_143.xml   10000
+   20160803_00000001_144.xml   10000
+   20160803_00000001_145.xml   10000
+   20160803_00000001_146.xml   10000
+   20160803_00000001_147.xml   10000
+   20160803_00000001_148.xml   10000
+   20160803_00000001_149.xml   10000
+   20160803_00000001_150.xml   583
+   纸制xml文件:
+   20160803_00000001_YBK201608JSYY01_0164_001.xml   10000
+   20160803_00000001_YBK201608JSYY01_0164_002.xml   7360
+   20160803_00000001_YBK201608SZYZ02_0165_001.xml   10000
+   20160803_00000001_YBK201608SZYZ02_0165_002.xml   1761
+   20160803_00000001_YBK201608JSYY21_0165_001.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_002.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_003.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_004.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_005.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_006.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_007.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_008.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_009.xml   10000
+   20160803_00000001_YBK201608JSYY21_0165_010.xml   5978
+   20160803_00000001_YBK201608JSYY03_0164_001.xml   10000
+   20160803_00000001_YBK201608JSYY03_0164_002.xml   4306
+   20160803_00000001_YBK201608JSYY20_0164_001.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_002.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_003.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_004.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_005.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_006.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_007.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_008.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_009.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_010.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_011.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_012.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_013.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_014.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_015.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_016.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_017.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_018.xml   10000
+   20160803_00000001_YBK201608JSYY20_0164_019.xml   130
+   20160803_00000001_YBK201608JSYY02_0164_001.xml   10000
+   20160803_00000001_YBK201608JSYY02_0164_002.xml   2099
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > BB卡:  查询:55897条, 写入:57247条, 耗时:00:23:24.441
+   电子xml文件:
+   20160803_00000002_001.xml   10000
+   20160803_00000002_002.xml   10000
+   20160803_00000002_003.xml   10000
+   20160803_00000002_004.xml   10000
+   20160803_00000002_005.xml   10000
+   20160803_00000002_006.xml   5897
+   纸制xml文件:
+   20160803_00000002_BBK201608SZYZ01_0165_001.xml   100
+   20160803_00000002_BBK201608SZYZ02_0165_001.xml   284
+   20160803_00000002_BBK201608JSYY01_0164_001.xml   147
+   20160803_00000002_BBK201608JSYY02_0164_001.xml   39
+   20160803_00000002_BBK201608JSYY03_0164_001.xml   780
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 一账通:  查询:33814条, 写入:39970条, 耗时:00:15:44.036
+   电子xml文件:
+   20160803_00000003_001.xml   10000
+   20160803_00000003_002.xml   10000
+   20160803_00000003_003.xml   10000
+   20160803_00000003_004.xml   3814
+   纸制xml文件:
+   20160803_00000003_YZT201608SZYZ01_0165_001.xml   252
+   20160803_00000003_YZT201608SZYZ02_0165_001.xml   5904
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 白金卡:  查询:61281条, 写入:78973条, 耗时:00:25:40.428
+   电子xml文件:
+   20160803_00000004_001.xml   10000
+   20160803_00000004_002.xml   10000
+   20160803_00000004_003.xml   10000
+   20160803_00000004_004.xml   10000
+   20160803_00000004_005.xml   10000
+   20160803_00000004_006.xml   10000
+   20160803_00000004_007.xml   1281
+   纸制xml文件:
+   20160803_00000004_BJK201608JSYY03_3151_001.xml   10000
+   20160803_00000004_BJK201608JSYY03_3151_002.xml   6500
+   20160803_00000004_BJK201608JSYY02_3151_001.xml   299
+   20160803_00000004_BJK201608JSYY01_3151_001.xml   893
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 钻石卡:  查询:73条, 写入:95条, 耗时:00:00:34.473
+   电子xml文件:
+   20160803_00009404_001.xml   73
+   纸制xml文件:
+   20160803_00009404_ZSK201608JSYY03_3389_001.xml   18
+   20160803_00009404_ZSK201608JSYY01_3389_001.xml   4
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 公务卡金卡:  查询:21条, 写入:24条, 耗时:00:00:22.247
+   电子xml文件:
+   20160803_00008695_001.xml   21
+   纸制xml文件:
+   20160803_00008695_GWK201608SZYZ01_0165_001.xml   3
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 大润发卡:  查询:2602条, 写入:2635条, 耗时:00:02:27.404
+   电子xml文件:
+   20160803_00018518_001.xml   2602
+   纸制xml文件:
+   20160803_00018518_DRF201608JSYY01_0164_001.xml   4
+   20160803_00018518_DRF201608JSYY03_0164_001.xml   29
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 金通卡:  查询:1552条, 写入:2390条, 耗时:00:01:53.923
+   电子xml文件:
+   20160803_00023717_001.xml   1552
+   纸制xml文件:
+   20160803_00023717_JTK201606SZYZ01_0165_001.xml   30
+   20160803_00023717_JTK201606SZYZ02_0165_001.xml   808
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 欧尚卡:  查询:75031条, 写入:85049条, 耗时:00:27:18.428
+   电子xml文件:
+   20160803_00001603_001.xml   10000
+   20160803_00001603_002.xml   10000
+   20160803_00001603_003.xml   10000
+   20160803_00001603_004.xml   10000
+   20160803_00001603_005.xml   10000
+   20160803_00001603_006.xml   10000
+   20160803_00001603_007.xml   10000
+   20160803_00001603_008.xml   5031
+   纸制xml文件:
+   20160803_00001603_OSK201608JSYY03_0164_001.xml   9006
+   20160803_00001603_OSK201608JSYY02_0164_001.xml   2
+   20160803_00001603_OSK201608JSYY01_0164_001.xml   1010
+
+[2016-10-10 22:34:16]  INFO: com.bill.normal.ComposeXml
+ > 生成结束, 时间:2016-10-10 22:34:16, 耗时:03:26:42.846
+##### program finish
+[INFO] Succeed running normalxml.sh !
